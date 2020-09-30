@@ -580,3 +580,18 @@
 .vscode-body hr {
 	border-bottom-color: #eee;
 }
+
+table th {
+	font-weight: bold;
+}
+
+table th,
+table td {
+	border: solid 1px rgb(79, 85, 85) !important;
+	padding: 6px 13px;
+	background-color: #1d1e1e;
+}
+
+tbody tr:nth-child(2n) > td {
+	background-color: #2d2d2d;
+}
